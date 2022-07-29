@@ -405,6 +405,21 @@
           </li>
         </ul>
       </div>
+      <div>
+        <h2 class="footer-form-title">Підпишіться на розсилку</h2>
+        <form class="footer-form">
+          <label class="footer-form-wrap ">
+            <input class="footer-form-input" type="email" name="e-mail" placeholder="E-mail">
+          </label>
+          <button class="footer-form-btn" type="submit">Підписатися
+            <svg class="footer-form-btn-icon" width="24px" height="24px">
+              <use href="./images/icons.svg#icon-icon-send"></use>
+            </svg>
+
+
+            </svg></button>
+        </form>
+      </div>
     </div>
   </footer>
   <!-- modal window -->
@@ -415,29 +430,47 @@
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
-      <strong>Залиште свої дані, ми вам передзвонимо</strong>
+
       <form class="form">
-        <label for="">
-          <span>Ім'я</span>
-          <input type="text">
+        <strong class="form-title">Залиште свої дані, ми вам передзвонимо</strong>
+        <div class="register-form-group" role="group">
+          <label class="register-form-wrap">
+            <span class="register-form-title">Ім'я</span>
+            <input class="register-form-input" type="text" name="name" />
+            <svg class="register-form-icon" width="18px" height="18px">
+              <use href="./images/icons.svg#icon-person-form"></use>
+            </svg>
+          </label>
+          <label class="register-form-wrap">
+            <span class="register-form-title">Телефон</span>
+            <input class="register-form-input" type="tel" name="phone" />
+            <svg class="register-form-icon" width="18px" height="18px">
+              <use href="./images/icons.svg#icon-phone-form"></use>
+            </svg>
+          </label>
+          <label class="register-form-wrap">
+            <span class="register-form-title">Пошта</span>
+            <input class="register-form-input" type="email" name="mail" />
+            <svg class="register-form-icon" width="18px" height="18px">
+              <use href="./images/icons.svg#icon-email-form"></use>
+            </svg>
+          </label>
+          <label>
+            <span class="register-form-title">Коментар</span>
+            <textarea class="register-form-coment" placeholder="Введіть текст"></textarea>
+          </label>
+        </div>
+        <label class="register-form-agreement">
+          <input class="register-checkbox visually-hidden" type="checkbox" />
+          <svg class="register-form-agreement-icon" width="15px" height="16px">
+            <use class="register-form-agreement-icon-uncheck" href="./images/icons.svg#icon-agreement-border"></use>
+            <use class="register-form-agreement-icon-check" href="images/icons.svg#icon-Vector-3"></use>
+          </svg>
+          <span class="register-form-agreement-text">Погоджуюся з розсилкою та приймаю
+            <a class="form-link" href="">Умови договору</a></span>
         </label>
-        <label>
-          <span>Телефон</span>
-          <input type="tel" name="phone">
-        </label>
-        <label>
-          <span>Пошта</span>
-          <input type="mail">
-        </label>
-        <label>
-          <span>Коментар</span>
-          <textarea class="form-coment"></textarea>
-        </label>
-        <label>
-          <input type="checkbox">
-          <span>Погоджуюся з розсилкою та приймаю <a class="form-link" href=""> Умови договору</a></span>
-        </label>
-        <button type="submit">Відправити</button>
+
+        <button class="register-form-btn" type="submit">Відправити</button>
       </form>
     </div>
   </div>
