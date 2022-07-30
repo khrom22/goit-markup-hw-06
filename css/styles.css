@@ -815,6 +815,7 @@ text-align: center;
 }
 .register-form-input-icon{
 position: relative;
+display: block;
 }
 .register-form-input{
 width: 100%;
